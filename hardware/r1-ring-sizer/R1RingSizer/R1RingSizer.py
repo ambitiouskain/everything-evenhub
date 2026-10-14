@@ -27,7 +27,7 @@ import adsk.fusion
 DEFAULTS = {
     'ring_id': 20.5,      # R1 inner diameter
     'ring_w': 6.0,        # R1 band width
-    'finger_d': 18.5,     # finger diameter where the ring sits
+    'finger_d': 17.7,     # 18.5 measured, but an 18.9 hole printed >= 1 mm too loose
     'fit': 0.2,           # added to finger_d; final hole = finger_d + fit
     'grip': 0.2,          # diametral press fit of the insert inside the ring
     'bias': 100.0,        # % of the gap moved to the top (100 = finger touches sensor)
