@@ -27,13 +27,13 @@ import adsk.fusion
 DEFAULTS = {
     'ring_id': 20.5,      # R1 inner diameter
     'ring_w': 6.0,        # R1 band width
-    'finger_d': 17.7,     # 18.5 measured, but an 18.9 hole printed >= 1 mm too loose
+    'finger_d': 16.6,     # 18.5 measured; fit tests: 18.9 hole too loose, ~16.4 stack snug
     'fit': 0.2,           # added to finger_d; final hole = finger_d + fit
     'grip': 0.2,          # diametral press fit of the insert inside the ring
     'bias': 100.0,        # % of the gap moved to the top (100 = finger touches sensor)
     'window': 90.0,       # minimum open angle at the bottom for the sensor
     'min_tip': 0.8,       # thinnest wall allowed at the tips of the C
-    'lips': 2,            # 0 none, 1 one side, 2 both sides
+    'lips': 1,            # 0 none, 1 one side, 2 both sides
     'lip_t': 0.6,         # lip thickness (along the ring axis)
     'lip_h': 0.8,         # how far the lip reaches over the ring's side face
     'lip_span': 120.0,    # angular length of each lip, centred on the top
